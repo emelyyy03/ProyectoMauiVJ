@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="KAELY GALLERY´S"
+                HorizontalTextAlignment="Center"/>
+
+            <Label
+                Text="Te Invitamos A Hecharle Un Vistazo A Las Obras De Arte De Los Diferentes Continentes"
+                HorizontalTextAlignment="Center"
+               />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Haz Clic Aqui Para Ingresar A Nuestra Página" 
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

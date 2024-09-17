@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.Registrarse"
+             Title="Registrarse">
+    <VerticalStackLayout Padding="40" Spacing="20">
+        <Label 
+            Padding="5"
+            Text="REGISTRATE CON NOSOTROS!!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="Usuario" Placeholder="Ingrese Un Nombre De Usuario" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="Pass" Placeholder="Ingrese Una Contraseña" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+        <Button x:Name="btnRegistrarse" Text="Registrarse"  />
+        <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand"
+        VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.InicioSesion"
+             Title="InicioSesion">
+    <ScrollView>
+        <VerticalStackLayout Padding="40" Spacing="20">
+        
+        <Label Padding="5" Text="INICIAR SESION" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="NombreUsuario" Placeholder="Ingrese Su Nombre De Usuario"/>
+        <Entry x:Name="Pass" Keyboard="Numeric" Placeholder="Ingrese Su Contraseña"/>
+        <Button x:Name="BtnIniciarSesion" Text="Iniciar Sesión"/>
+        <Label Padding="5" Text="      "/>
+
+        <Label Padding="1" Text="¿No tienes una cuenta?" HorizontalTextAlignment="Center"/>
+        <Label Padding="1"  Text="Registrate dando clic en el siguiente botón" HorizontalTextAlignment="Center"/>
+        <Button x:Name="BtnRegistrarse" Text="Registrarse" WidthRequest="150" Clicked="BtnRegistrarse_Clicked"/>
+        
+
+
+        <Button x:Name="btnVisitantes" Text="VER REGISTRO DE VISITANTES" Clicked="btnVisitantes_Clicked"/>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

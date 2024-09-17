@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.Registro"
+             Title="Registro">
+    <VerticalStackLayout>
+        <Label 
+            Text="REGISTRO DE VISITANTES!!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <VerticalStackLayout Padding="5">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="{Binding X1}"/>
+                                <Label Grid.Column="2" Text="{Binding X2}"/>
+                                <Label Grid.Column="4" Text="{Binding Y1}"/>
+                                <Label Grid.Column="6" Text="{Binding Y2}"/>
+                                <Label Grid.Column="7" Text="{Binding Distanciaa}" FontAttributes="Bold"/>
+                            </Grid>
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand"
+                VerticalOptions="EndAndExpand" Clicked="btnVolver_Clicked" WidthRequest="100"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
