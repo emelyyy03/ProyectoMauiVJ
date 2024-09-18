@@ -16,7 +16,7 @@
               />
 
             <Image
-             Source="masFamosas.jpg"
+             Source="famosas.jpg"
              HeightRequest="300"
               Aspect="AspectFit"
              SemanticProperties.Description="" />
@@ -40,12 +40,12 @@
             <Button x:Name="BtnPictoricas" Text="OBRAS PICTÓRICAS MUNDIALES" WidthRequest="150" Clicked="BtnPictoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
 
             <Image
-             Source="salvadoreñas.jpg"
+             Source="salvadore.jpg"
              HeightRequest="300"
              Aspect="AspectFit"
             SemanticProperties.Description="" />
 
-            <Button x:Name="BtnSalvadoreñas" Text="OBRAS DE ARTE NACIONAL" WidthRequest="150" Clicked="BtnSalvadoreñas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+            <Button x:Name="BtnSalvadore" Text="ARTE NACIONAL" WidthRequest="150" Clicked="BtnSalvadore_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
 
 
         </VerticalStackLayout>

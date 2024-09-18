@@ -58,11 +58,11 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\escultoricas.jpg" />
+	  <None Remove="Resources\Images\famosas.jpg" />
 	  <None Remove="Resources\Images\kaelygalleries.png" />
 	  <None Remove="Resources\Images\logokaely.png" />
-	  <None Remove="Resources\Images\masFamosas.jpg" />
 	  <None Remove="Resources\Images\pictoricas.jpg" />
-	  <None Remove="Resources\Images\salvadoreñas.jpg" />
+	  <None Remove="Resources\Images\salvadore.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>

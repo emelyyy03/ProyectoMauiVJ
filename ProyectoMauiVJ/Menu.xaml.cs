@@ -22,7 +22,7 @@ public partial class Menu : ContentPage
 
     }
 
-    private void BtnSalvadoreñas_Clicked(System.Object sender, System.EventArgs e)
+    private void BtnSalvadore_Clicked(object sender, EventArgs e)
     {
 
     }
