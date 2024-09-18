@@ -12,8 +12,8 @@
         <Button x:Name="BtnIniciarSesion" Text="Iniciar Sesión"/>
         <Label Padding="5" Text="      "/>
 
-        <Label Padding="1" Text="¿No tienes una cuenta?" HorizontalTextAlignment="Center"/>
-        <Label Padding="1"  Text="Registrate dando clic en el siguiente botón" HorizontalTextAlignment="Center"/>
+        <Label Text="¿No tienes una cuenta?" HorizontalTextAlignment="Center"/>
+        <Label Text="Registrate dando clic en el siguiente botón" HorizontalTextAlignment="Center"/>
         <Button x:Name="BtnRegistrarse" Text="Registrarse" WidthRequest="150" Clicked="BtnRegistrarse_Clicked"/>
         
 

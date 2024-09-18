@@ -3,35 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Registro"
              Title="Registro">
-    <VerticalStackLayout>
+    <VerticalStackLayout Spacing="10">
         <Label 
             Text="REGISTRO DE VISITANTES!!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Entry x:Name="entryNombre"/>
+        <Entry x:Name="entryContra"/>
+
         <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-                        <VerticalStackLayout Padding="5">
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Text="{Binding X1}"/>
-                                <Label Grid.Column="2" Text="{Binding X2}"/>
-                                <Label Grid.Column="4" Text="{Binding Y1}"/>
-                                <Label Grid.Column="6" Text="{Binding Y2}"/>
-                                <Label Grid.Column="7" Text="{Binding Distanciaa}" FontAttributes="Bold"/>
-                            </Grid>
-                        </VerticalStackLayout>
-                    </ViewCell>
+                    <TextCell Text="{Binding Nombre}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

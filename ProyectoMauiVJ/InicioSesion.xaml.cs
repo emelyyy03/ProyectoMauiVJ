@@ -2,7 +2,8 @@ namespace ProyectoMauiVJ;
 
 public partial class InicioSesion : ContentPage
 {
-	public InicioSesion()
+    private LocalDbService _dbService;
+    public InicioSesion()
 	{
 		InitializeComponent();
 	}
@@ -16,7 +17,7 @@ public partial class InicioSesion : ContentPage
 
     private void btnVisitantes_Clicked(object sender, EventArgs e)
     {
-        var nextPage = new Registro();
+        var nextPage = new Registro(_dbService);
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }

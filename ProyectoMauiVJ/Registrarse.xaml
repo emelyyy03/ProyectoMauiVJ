@@ -11,7 +11,7 @@
             HorizontalOptions="Center" />
         <Entry x:Name="Usuario" Placeholder="Ingrese Un Nombre De Usuario" HorizontalTextAlignment="Center"/>
         <Entry x:Name="Pass" Placeholder="Ingrese Una Contraseña" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
-        <Button x:Name="btnRegistrarse" Text="Registrarse"  />
+        <Button x:Name="btnRegistrarse" Text="Registrarse" Clicked="btnRegistrarse_Clicked" />
         <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand"
         VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
     </VerticalStackLayout>
