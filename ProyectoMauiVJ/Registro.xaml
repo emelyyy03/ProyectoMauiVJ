@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoMauiVJ.Registro"
+             x:Class="ProyectoMauiVJ.Registro" BackgroundColor="Wheat"
              Title="Registro">
     <VerticalStackLayout Spacing="10">
         <Label 
-            Text="REGISTRO DE VISITANTES!!"
+            Text="REGISTRO DE VISITANTES!!" TextColor="Chocolate" FontSize="Title"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Entry x:Name="entryNombre"/>
-        <Entry x:Name="entryContra"/>
+        <Entry x:Name="entryNombre" TextColor="Black"/>
+        <Entry x:Name="entryContra" TextColor="Black"/>
 
         <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
             <ListView.ItemTemplate>
@@ -19,8 +19,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand"
+        <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
                 VerticalOptions="EndAndExpand" Clicked="btnVolver_Clicked" WidthRequest="100"/>
-        
-    </VerticalStackLayout>
+
+    </VerticalStackLayout>  
 </ContentPage>

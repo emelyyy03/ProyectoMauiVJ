@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.Menu" BackgroundColor="Wheat"
+             Title="Menu">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="40" Spacing="20">
+            <Label
+             Text="KAELY GALLERY´S - MENÚ DE CATEGORIAS" TextColor="Chocolate" FontSize="Header"
+             HorizontalTextAlignment="Center"/>
+
+            <Label
+             Text="Las distintas categorias mas interesantes mundialmente y claro, tambien mostramos el talento salvadoreño, con las mejores obras de arte a nivel nacional. Elige que ver primero"
+             HorizontalTextAlignment="Center" TextColor="Black" FontSize="Title"
+              />
+
+            <Image
+             Source="masFamosas.jpg"
+             HeightRequest="300"
+              Aspect="AspectFit"
+             SemanticProperties.Description="" />
+
+            <Button x:Name="BtnFamosas" Text="OBRAS MAS FAMOSAS" WidthRequest="150" Clicked="BtnFamosas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+
+            <Image
+            Source="escultoricas.jpg"
+            HeightRequest="300"
+             Aspect="AspectFit"
+             SemanticProperties.Description="" />
+
+            <Button x:Name="BtnEscultoricas" Text="OBRAS ESCULTÓRICAS MUNDIALES" WidthRequest="150" Clicked="BtnEscultoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+
+            <Image
+            Source="pictoricas.jpg"
+            HeightRequest="300"
+            Aspect="AspectFit"
+            SemanticProperties.Description="" />
+
+            <Button x:Name="BtnPictoricas" Text="OBRAS PICTÓRICAS MUNDIALES" WidthRequest="150" Clicked="BtnPictoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+
+            <Image
+             Source="salvadoreñas.jpg"
+             HeightRequest="300"
+             Aspect="AspectFit"
+            SemanticProperties.Description="" />
+
+            <Button x:Name="BtnSalvadoreñas" Text="OBRAS DE ARTE NACIONAL" WidthRequest="150" Clicked="BtnSalvadoreñas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

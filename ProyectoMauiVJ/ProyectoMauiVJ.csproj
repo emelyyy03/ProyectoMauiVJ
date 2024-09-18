@@ -57,6 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\escultoricas.jpg" />
+	  <None Remove="Resources\Images\kaelygalleries.png" />
+	  <None Remove="Resources\Images\logokaely.png" />
+	  <None Remove="Resources\Images\masFamosas.jpg" />
+	  <None Remove="Resources\Images\pictoricas.jpg" />
+	  <None Remove="Resources\Images\salvadoreñas.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -66,6 +75,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="InicioSesion.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Menu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Registrarse.xaml">

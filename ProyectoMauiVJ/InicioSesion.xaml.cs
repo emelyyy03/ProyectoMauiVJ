@@ -21,4 +21,11 @@ public partial class InicioSesion : ContentPage
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
+
+    private void BtnIniciarSesion_Clicked(object sender, EventArgs e)
+    {
+        var nextPage = new Menu();
+        NavigationPage navigationPage = new NavigationPage(nextPage);
+        Application.Current.MainPage = navigationPage;
+    }
 }

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Wheat"
              x:Class="ProyectoMauiVJ.MainPage">
 
     <ScrollView>
@@ -8,23 +9,24 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
+                Source="kaelygalleries.png"
+                HeightRequest="450"
                 Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
+                SemanticProperties.Description="" />
 
             <Label
-                Text="KAELY GALLERY´S"
+                Text="KAELY GALLERY´S" TextColor="Chocolate" FontSize="Header"
                 HorizontalTextAlignment="Center"/>
 
             <Label
-                Text="Te Invitamos A Hecharle Un Vistazo A Las Obras De Arte De Los Diferentes Continentes"
-                HorizontalTextAlignment="Center"
+                Text="Te Invitamos A Hecharle Un Vistazo A Las Obras De Arte De Los Diferentes Categorias"
+                HorizontalTextAlignment="Center" TextColor="Black" FontSize="Title"
                />
 
             <Button
                 x:Name="CounterBtn"
                 Text="Haz Clic Aqui Para Ingresar A Nuestra Página" 
+                TextColor="White" BackgroundColor="Chocolate"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>

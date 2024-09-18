@@ -49,4 +49,11 @@ public partial class Registro : ContentPage
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
+
+    private void btnEntrar_Clicked(object sender, EventArgs e)
+    {
+        var nextPage = new Menu();
+        NavigationPage navigationPage = new NavigationPage(nextPage);
+        Application.Current.MainPage = navigationPage;
+    }
 }
