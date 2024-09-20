@@ -4,16 +4,15 @@ namespace ProyectoMauiVJ;
 public partial class Registrarse : ContentPage
 {
     private LocalDbService _dbService;
-    public Registrarse()
+    public Registrarse(LocalDbService localDbService)
 	{
 		InitializeComponent();
-        string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "items.db3");
-        _dbService = new LocalDbService(dbPath);
+        _dbService = localDbService;
     }
 
     private void btnVolver_Clicked(object sender, EventArgs e)
     {
-        var nextPage = new InicioSesion();
+        var nextPage = new InicioSesion(_dbService);
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
@@ -31,6 +30,8 @@ public partial class Registrarse : ContentPage
 
         var item = new Cuentas { Nombre = name, Contraseña = pass };
         await _dbService.Create(item);
+
+        await DisplayAlert("Éxito", "El usuario ha sido registrado", "OK");
 
         await Navigation.PushAsync(new Registro(_dbService));
     }

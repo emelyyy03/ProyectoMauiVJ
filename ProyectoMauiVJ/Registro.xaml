@@ -3,19 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Registro" BackgroundColor="Wheat"
              Title="Registro">
-    <VerticalStackLayout Spacing="10">
+    <VerticalStackLayout Padding="40" Spacing="10">
         <Label 
             Text="REGISTRO DE VISITANTES!!" TextColor="Chocolate" FontSize="Title"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Entry x:Name="entryNombre" TextColor="Black"/>
-        <Entry x:Name="entryContra" TextColor="Black"/>
+        <Entry x:Name="entryNombre" TextColor="Black" />
+        <Entry x:Name="entryContra" TextColor="Black" Keyboard="Numeric"/>
+        <Button x:Name="btnGuardar"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
 
         <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Nombre}"/>
+
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Nombre}" FontSize="15" TextColor="Chocolate"/>
+                        </StackLayout>
+                    </ViewCell>
+                    
+                    <!--<TextCell TextColor="Chocolate" Text="{Binding Nombre}"/>-->
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

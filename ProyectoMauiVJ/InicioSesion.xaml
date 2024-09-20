@@ -8,18 +8,17 @@
         <VerticalStackLayout Padding="40" Spacing="20">
         
         <Label Padding="5" Text="INICIAR SESION" HorizontalTextAlignment="Center" TextColor="Chocolate" FontSize="Title"/>
-        <Entry x:Name="NombreUsuario" Placeholder="Ingrese Su Nombre De Usuario" TextColor="Black"/>
-            <Entry x:Name="Pass" Keyboard="Numeric" Placeholder="Ingrese Su Contraseña" TextColor="Black" />
-            <Button x:Name="BtnIniciarSesion" Text="Iniciar Sesión"  TextColor="White" BackgroundColor="Chocolate" Clicked="BtnIniciarSesion_Clicked"/>
-        <Label Padding="5" Text="      "/>
+            <Entry x:Name="NombreUsuario" WidthRequest="250" Placeholder="Ingrese su nombre de usuario" TextColor="Black"/>
+            <Entry x:Name="Pass" WidthRequest="250" Keyboard="Numeric" Placeholder="Ingrese su contraseña" TextColor="Black" />
+            <Button x:Name="BtnIniciarSesion" WidthRequest="200" Text="Iniciar Sesión"  TextColor="White" BackgroundColor="Chocolate" Clicked="BtnIniciarSesion_Clicked"/>
 
-        <Label Text="¿No tienes una cuenta?" TextColor="Black" HorizontalTextAlignment="Center"/>
-        <Label Text="Registrate dando clic en el siguiente botón"  HorizontalTextAlignment="Center"/>
-            <Button x:Name="BtnRegistrarse" Text="Registrarse" WidthRequest="150" Clicked="BtnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
-
+            <Label Text="¿No tienes una cuenta?" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Registrate dando clic en el siguiente botón" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Button x:Name="BtnRegistrarse" Text="Registrarse" WidthRequest="200" Clicked="BtnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
 
 
-            <Button x:Name="btnVisitantes" Text="VER REGISTRO DE VISITANTES" Clicked="btnVisitantes_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+
+            <Button x:Name="btnVisitantes" WidthRequest="250" Text="Ver registro de visitantes" Clicked="btnVisitantes_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
 
     </VerticalStackLayout>
     </ScrollView>

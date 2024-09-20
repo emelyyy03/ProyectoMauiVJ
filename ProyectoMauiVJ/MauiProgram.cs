@@ -18,6 +18,9 @@ namespace ProyectoMauiVJ
 #if DEBUG
             builder.Services.AddSingleton<LocalDbService>();
             builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<InicioSesion>();
+            builder.Services.AddTransient<Registro>();
+            builder.Services.AddTransient<Registrarse>();
             builder.Logging.AddDebug();
 #endif
 

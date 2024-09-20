@@ -2,9 +2,11 @@ namespace ProyectoMauiVJ;
 
 public partial class Menu : ContentPage
 {
-	public Menu()
+    LocalDbService _localDbService;
+	public Menu(LocalDbService localDbService)
 	{
 		InitializeComponent();
+        _localDbService = localDbService;
 	}
 
     private void BtnFamosas_Clicked(System.Object sender, System.EventArgs e)
@@ -25,5 +27,12 @@ public partial class Menu : ContentPage
     private void BtnSalvadore_Clicked(object sender, EventArgs e)
     {
 
+    }
+
+    private void btnCerrar_Clicked(object sender, EventArgs e)
+    { 
+        var nextPage = new InicioSesion(_localDbService);
+        NavigationPage navigationPage = new NavigationPage(nextPage);
+        Application.Current.MainPage = navigationPage;
     }
 }

@@ -2,24 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Registrarse" BackgroundColor="Wheat"
-             Title="Registrarse"> 
+             Title="Registrarse">
+    <ScrollView>
     <VerticalStackLayout Padding="40" Spacing="20">
-        <Label 
+            <Image 
+              Source="logokaely.png"
+              HeightRequest="150"
+              Aspect="AspectFit"
+              SemanticProperties.Description=""
+                />   
+            <Label 
             Padding="5"
             Text="REGISTRATE CON NOSOTROS!!" TextColor="Chocolate" FontSize="Title"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Entry x:Name="Usuario" Placeholder="Ingrese Un Nombre De Usuario" TextColor="Black" HorizontalTextAlignment="Center"/>
-        <Entry x:Name="Pass" Placeholder="Ingrese Una Contraseña" TextColor="Black" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+           
+            <Entry x:Name="Usuario" Placeholder="Ingrese un nombre de usuario" TextColor="Black" HorizontalTextAlignment="Center"/>
+        <Entry x:Name="Pass" Placeholder="Ingrese una contraseña" TextColor="Black" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
         <Button x:Name="btnRegistrarse" Text="Registrarse" Clicked="btnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate" />
         <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
         VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
-
-        <Image 
-            Source="logokaely.png"
-             HeightRequest="200"
-             Aspect="AspectFit"
-             SemanticProperties.Description=""
-            />
+     
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

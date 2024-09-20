@@ -15,13 +15,10 @@ namespace ProyectoMauiVJ
         {
             _connection = new SQLiteAsyncConnection(dbPath);
             _connection.CreateTableAsync<Cuentas>().Wait();
-
-
-            //_connection = new SQLiteAsyncConnection(Path.Combine(FileSystem.AppDataDirectory, DB_NAME));
-
-            ////Le indica al sistema que cree la tabla de nuestro contexto
-            //_connection.CreateTableAsync<Cuentas>().Wait();
         }
+
+
+        
 
         //Metodo para listar los registros de nuestra tabla
         public async Task<List<Cuentas>> GetCuentas()
@@ -35,10 +32,18 @@ namespace ProyectoMauiVJ
             return await _connection.Table<Cuentas>().Where(x => x.Id == id).FirstOrDefaultAsync();
         }
 
+
         //Metodo para crear registro 
         public async Task Create(Cuentas cuentas)
         {
             await _connection.InsertAsync(cuentas);
+        }
+
+        public Task<Cuentas> ObtenerUsuarioAsync(string nombreUsuario, string contraseña)
+        {
+            return _connection.Table<Cuentas>()
+                     .Where(u => u.Nombre == nombreUsuario && u.Contraseña == contraseña)
+                     .FirstOrDefaultAsync();
         }
 
         //Metodo para actualizar 
@@ -52,5 +57,6 @@ namespace ProyectoMauiVJ
         {
             await _connection.DeleteAsync(cuentas);
         }
+
     }
 }
