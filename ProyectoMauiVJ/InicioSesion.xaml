@@ -7,9 +7,9 @@
     <ScrollView>
         <VerticalStackLayout Padding="40" Spacing="20">
         
-        <Label Padding="5" Text="INICIAR SESION" HorizontalTextAlignment="Center" TextColor="Chocolate" FontSize="Title"/>
+        <Label Padding="5" Text="Iniciar Sesión" FontFamily="FontDouglast" HorizontalTextAlignment="Center" TextColor="Chocolate" FontSize="35"/>
             <Entry x:Name="NombreUsuario" WidthRequest="250" Placeholder="Ingrese su nombre de usuario" TextColor="Black"/>
-            <Entry x:Name="Pass" WidthRequest="250" Keyboard="Numeric" Placeholder="Ingrese su contraseña" TextColor="Black" />
+            <Entry x:Name="Pass" IsPassword="True" WidthRequest="250" Keyboard="Numeric" Placeholder="Ingrese su contraseña" TextColor="Black" />
             <Button x:Name="BtnIniciarSesion" WidthRequest="200" Text="Iniciar Sesión"  TextColor="White" BackgroundColor="Chocolate" Clicked="BtnIniciarSesion_Clicked"/>
 
             <Label Text="¿No tienes una cuenta?" TextColor="Black" HorizontalTextAlignment="Center"/>

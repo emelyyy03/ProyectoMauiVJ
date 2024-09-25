@@ -4,11 +4,11 @@ public partial class InicioSesion : ContentPage
 {
     private LocalDbService _dbService;
     public InicioSesion(LocalDbService dbService)
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
 
         _dbService = dbService;
-       
+
     }
 
     private void BtnRegistrarse_Clicked(object sender, EventArgs e)
@@ -41,7 +41,6 @@ public partial class InicioSesion : ContentPage
 
         if (usuario != null && usuario.Contraseña == contraseña)
         {
-            await DisplayAlert("Éxito", "Usuario encontrado, puede navegar por nuestra página", "OK");
             // Navegar a la siguiente página
             await Navigation.PushAsync(new Menu(_dbService));
         }
@@ -49,9 +48,5 @@ public partial class InicioSesion : ContentPage
         {
             await DisplayAlert("Error", "Datos no encontrados", "OK");
         }
-
-        //var nextPage = new Menu();
-        //NavigationPage navigationPage = new NavigationPage(nextPage);
-        //Application.Current.MainPage = navigationPage;
     }
 }
