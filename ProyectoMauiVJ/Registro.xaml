@@ -5,7 +5,7 @@
              Title="Registro">
     <VerticalStackLayout Padding="40" Spacing="10">
         <Label 
-            Text="REGISTRO DE VISITANTES!!" TextColor="Chocolate" FontSize="Title"
+            Text="Registro de Visitantes!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="35"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 

@@ -13,6 +13,7 @@ namespace ProyectoMauiVJ
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Douglast PERSONAL USE ONLY!.ttf", "FontDouglast");
                 });
 
 #if DEBUG

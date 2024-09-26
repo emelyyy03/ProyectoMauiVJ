@@ -10,17 +10,16 @@
             Spacing="15">
             <Image
                 Source="kaelygalleries.png"
-                HeightRequest="450"
-                Aspect="AspectFit"
-                SemanticProperties.Description="" />
+                HeightRequest="350"
+                />
 
             <Label
-                Text="KAELY GALLERY´S" TextColor="Chocolate" FontSize="Header"
+                Text="Kaely Gallery´s" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="50"
                 HorizontalTextAlignment="Center"/>
 
             <Label
                 Text="Te invitamos a hecharle un vistazo a las obras de arte de las diferentes categorías"
-                HorizontalTextAlignment="Center" TextColor="Black" FontSize="Title"
+                HorizontalTextAlignment="Center" TextColor="Black" FontSize="Title" FontAttributes="Italic"
                />
 
             <Button

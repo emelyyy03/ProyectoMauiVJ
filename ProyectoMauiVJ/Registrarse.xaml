@@ -13,15 +13,15 @@
                 />   
             <Label 
             Padding="5"
-            Text="REGISTRATE CON NOSOTROS!!" TextColor="Chocolate" FontSize="Title"
+            Text="Registrate con Nosotros!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="35"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-           
-            <Entry x:Name="Usuario" Placeholder="Ingrese un nombre de usuario" TextColor="Black" HorizontalTextAlignment="Center"/>
-        <Entry x:Name="Pass" Placeholder="Ingrese una contraseña" TextColor="Black" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
-        <Button x:Name="btnRegistrarse" Text="Registrarse" Clicked="btnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate" />
-        <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
-        VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
+
+            <Entry x:Name="Usuario" WidthRequest="250" Placeholder="Ingrese un nombre de usuario" TextColor="Black" />
+            <Entry x:Name="Pass" WidthRequest="250" Placeholder="Ingrese una contraseña" TextColor="Black" Keyboard="Numeric"/>
+            <Button x:Name="btnRegistrarse" WidthRequest="200" Text="Registrarse" Clicked="btnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate" />
+            <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
+            VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
      
     </VerticalStackLayout>
     </ScrollView>
