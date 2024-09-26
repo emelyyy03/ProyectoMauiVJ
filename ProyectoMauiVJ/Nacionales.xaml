@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.Nacionales" BackgroundColor="Wheat"
+             Title="Nacionales">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="40" Spacing="20">
+        <Label Padding="5" Text="ARTE Y TALENTO NACIONAL" HorizontalTextAlignment="Center" TextColor="Chocolate" FontSize="Header"/>
+        <Label Text="Y claramente no podia faltar las 10 obras mas reconocidas de nuestro pais, estas obras son incluso conocidas en otros continentes, hemos seleccionados los 10 mejores para mostrartelas acontinuacion." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="EL FORASTERO" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="forastero.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Nació en Santiago de Chile en 1963. Su trabajo ha sido apreciado en más de 100 exposiciones en los últimos años en importantes Museos, galerías de arte y famosas Ferias Internacionales de Europa, Norte América y Latinoamérica; tales como ArteAméricas, Feria Internacional de Arte de Holanda, Expo-Art, Montreal, Arcale entre otros. Ha sido invitado a importantes subastas de Arte en Museos como el de Arte Moderno Carlos Mérida en  Guatemala, David J. " TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Ignacio Basauri, Categoría: Pintura, Soporte: Tela, Temática: Figura, Técnica: Óleo, fecha: 19 de julio del 2017" TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="UN JARDIN ROJO" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="jardin.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Tatiana Cañas. El Salvador. Mi pintura esta catalogada Como Surrealista-Expresionista Abstracta y Moderna Muy reconocida por su paleta intensa en colores puros y espontaneos. Estudie clases de arte y pintura en el Centro Nacional de Arte de El Salvador. Continue mis Estudios de Arte y Pintura con mi Maestro y Mentor Carlos Cañas, mi tio,  de los Exponentes mas grandes en Arte de mi pais." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Tatiana Cañas, País: El Salvador, Categoría: Pintura, Soporte: Lienzo, Fecha: 25 de febrero del 2014, Técnica: Óleo." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="ESTAMPA DE MI PUEBLO 1" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="mipueblo.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Nací en San Salvador, El Salvador en 1976. He estudiado artes plásticas y diseño gráfico. No tengo una técnica específica, pero últimamente me ha encantado la acuarela, así que estoy en ese rumbo." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Ricardo Lopez, País: El Salvador, Categoría: Pintura, Soporte: Papel, Técnica: Acuarela, Fecha: 18 de agosto del 2013, Temática: Paisaje." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+
+        <Label Text="SUEÑO VENECIANO" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="veneciano.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Su trabajo ha sido apreciado en más de 100 exposiciones en los últimos años en importantes Museos, galerías de arte y famosas Ferias Internacionales de Europa, Norte América y Latinoamérica; tales como ArteAméricas, Feria Internacional de Arte de Holanda, Expo-Art, Montreal, Arcale entre otros. Ha sido invitado a importantes subastas de Arte en Museos como el de Arte Moderno Carlos Mérida en  Guatemala, David J. Guzmán de El Salvador " TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Ignacio Basauri, País: El Salvador, Categoría: Pintura, Soporte: Tela, Técnica: Óleo, Medidas: 90 x 70 cm, Fecha: 19 de julio del 2017." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+
+        <Label Text="EL SUEÑO 4" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="elsueno.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Marvin Roberto Quintanilla Velasco Nació en San Salvador el 29 de marzo de 1975. Desde 1998 hasta la fecha ha recibido diversos cursos de formación artística y pedagógica, Creatividad, estudios antropológicos y Diseño Digital, Pensamiento científico aplicado al arte,  entre otras." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Roberto Quintanilla, País: El Salvador, Categoría: Dibujo, Técnica: Tinta, Medidas: 30 x 22 cm, Fecha: 13 de agosto del 2014." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+
+        <Label Text="PRICIONERA" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="pricionera.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Lamentablemente no hay mucha informacion respecto al creador de esta obra de arte, lo que la hace tan famosa es los innumerables premios que el artista ha recibido durante los años que ha echo destacar su obra." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Noe Alvarado, País: El Salvador, Categoría: Pintura, Técnica: Óleo, Soporte: Lienzo, Fecha: 10 de noviembre del 2014." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+
+        <Label Text="SOLSTICIO DE INVIERNO EN MI CIUDAD JADE" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="solsticio.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Esta es la celebración maya más importante, donde el silencio o quietud predomina en el espíritu de los humanos. ¡Esa es una maravillosa presentación de uno de los mayores eventos cósmicos! ¡Ver la belleza del cambio asociada con la belleza del dinamismo de la vida!" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Pendragon Jngm, País: El Salvador, Categoría: Pintura, Técnica: Acrílico, Soporte: Lienzo, Fecha: 19 de enero del 2015." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,12 +56,43 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\afinidades.jpg" />
+	  <None Remove="Resources\Images\baco.jpg" />
+	  <None Remove="Resources\Images\beso.jpg" />
+	  <None Remove="Resources\Images\cena.jpg" />
+	  <None Remove="Resources\Images\ciencia.jpg" />
+	  <None Remove="Resources\Images\creacionadan.jpg" />
+	  <None Remove="Resources\Images\danae.jpg" />
+	  <None Remove="Resources\Images\david.jpg" />
+	  <None Remove="Resources\Images\elsueno.jpg" />
+	  <None Remove="Resources\Images\encuentro.jpg" />
 	  <None Remove="Resources\Images\escultoricas.jpg" />
 	  <None Remove="Resources\Images\famosas.jpg" />
+	  <None Remove="Resources\Images\forastero.jpg" />
+	  <None Remove="Resources\Images\grito.png" />
+	  <None Remove="Resources\Images\guernica.jpg" />
+	  <None Remove="Resources\Images\jardin.jpg" />
+	  <None Remove="Resources\Images\jovenperla.jpg" />
 	  <None Remove="Resources\Images\kaelygalleries.png" />
+	  <None Remove="Resources\Images\laocoonte.jpg" />
 	  <None Remove="Resources\Images\logokaely.png" />
+	  <None Remove="Resources\Images\madonna.jpg" />
+	  <None Remove="Resources\Images\meninas.jpg" />
+	  <None Remove="Resources\Images\mipueblo.jpg" />
+	  <None Remove="Resources\Images\moises.jpg" />
+	  <None Remove="Resources\Images\monalisa.jpg" />
+	  <None Remove="Resources\Images\noche.jpg" />
 	  <None Remove="Resources\Images\pictoricas.jpg" />
+	  <None Remove="Resources\Images\piqueticos.jpg" />
+	  <None Remove="Resources\Images\pricionera.jpg" />
+	  <None Remove="Resources\Images\rondanini.jpg" />
 	  <None Remove="Resources\Images\salvadore.jpg" />
+	  <None Remove="Resources\Images\sexta.jpg" />
+	  <None Remove="Resources\Images\solsticio.jpg" />
+	  <None Remove="Resources\Images\veneciano.jpg" />
+	  <None Remove="Resources\Images\venus.jpg" />
+	  <None Remove="Resources\Images\vinedo.jpg" />
+	  <None Remove="Resources\Images\zeus.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -74,10 +104,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Esculturas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Famosas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="InicioSesion.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Menu.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Nacionales.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pictoricas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Registrarse.xaml">

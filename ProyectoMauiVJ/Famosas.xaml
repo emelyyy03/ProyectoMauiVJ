@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMauiVJ.Famosas" BackgroundColor="Wheat"
+             Title="Famosas">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="40" Spacing="20">
+
+        <Label Padding="5" Text="OBRAS DE ARTE MAS CONOCIDAS EN EL MUNDO" HorizontalTextAlignment="Center" TextColor="Chocolate" FontSize="Header"/>
+        <Label Text="Las obras que se mostraran acontinuacion son aquellas de las que ya hemos oido pero no es malo volver a apreciarlas, estas 10 obras son las mas reconocidas por distintas parte del mundo." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="MONNA LISA (La Gioconda)" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="monalisa.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="El retrato de Lisa Gherardini, esposa de Francesco del Giocondo, ​ más conocido como La Gioconda o Monna Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci. Fue adquirida por el rey Francisco I de Francia a comienzos del siglo XVI y desde entonces es propiedad del Estado francés. " TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Leonardo da Vinci, Ubicación: Museo del Louvre (desde 1797), Modelo: Lisa Gherardini, Material: Pintura al óleo." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="LA ULTIMA CENA" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="cena.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="La última cena es una pintura mural original de Leonardo da Vinci ejecutada entre 1495 y 1498.​​ Se encuentra en la pared sobre la que se pintó originalmente, en el refectorio del convento dominico de Santa Maria delle Grazie, en Milán, ​ declarado Patrimonio de la Humanidad por la Unesco en 1980.​" TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Leonardo da Vinci, Ubicación: Santa María de las Gracias, Fecha de creación: 1495–1498, Materiales: Pintura al temple, Mástique, Alquitrán, Gesso." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="LA NOCHE ESTRELLADA" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="noche.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="La noche estrellada es un óleo sobre lienzo del pintor postimpresionista neerlandés Vincent van Gogh. Pintado en junio de 1889, representa la vista desde la ventana orientada al este de su habitación de asilo en Saint-Rémy-de-Provence, justo antes del amanecer, con la adición de un pueblo imaginario.​​​ " TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Vincent van Gogh, Ubicación: MoMA, Fecha de creación: junio de 1889–junio de 1889, Modelo: Saint-Rémy-de-Provence, Material: Pintura al óleo." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="EL GRITO" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="grito.png"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="El grito es el título de cuatro cuadros del noruego Edvard Munch. La versión más famosa se encuentra en la Galería Nacional de Noruega y fue completada en 1893.​ Otras dos versiones del cuadro se encuentran en el Museo Munch, también en Oslo, mientras que la cuarta versión pertenece a una colección particular." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Autor: Edvard Munch, Año: 1893, Estilo: Expresionismo, Tamaño: 91 cm × 73,5 cm, Técnica: Óleo, temple y pastel sobre cartón." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="GUERNICA" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="guernica.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Guernica es un cuadro de Pablo Picasso, pintado en París​ entre los meses de mayo y junio de 1937, cuyo título alude al bombardeo de Guernica, ocurrido el 26 de abril de dicho año, durante la guerra civil española." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Pablo Picasso, Fecha de creación: 26 de abril de 1937–junio de 1937, Modelo: Guerra, Guerra civil española, Sufrimiento, Ubicaciones: París (1937–1937), Museo Nacional Centro de Arte Reina Sofía, Material: Pintura al óleo." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="EL BESO" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="beso.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="El beso es una obra del pintor austríaco Gustav Klimt y probablemente su obra más conocida. Es un óleo con laminillas de oro y estaño sobre lienzo de 180 x 180 centímetros, realizado entre 1907-08.​Esta obra, que sigue los cánones del Simbolismo, es una tela con decoraciones y mosaicos sobre un fondo dorado." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Gustav Klimt, Ubicación: Palacio Belvedere, Género: Escena de género, Fecha de creación: 1907–1908, Materiales: Pintura al óleo, Pan de oro." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="LA JOVEN DE LA PERLA" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="jovenperla.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="La joven de la perla, también conocida como Muchacha con turbante, es una de las obras maestras del pintor neerlandés Johannes Vermeer, realizada entre 1665 y 1667. Como el nombre indica, utiliza un pendiente de perla como punto focal. La pintura se encuentra actualmente en el museo Mauritshuis de La Haya." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Johannes Vermeer, Ubicaciones: Rijksmuseum (2023–2023), Mauritshuis, Fecha de creación: 1665, Período: Siglo de Oro neerlandés, Material: Pintura al óleo." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="EL NACIMIENTO DE VENUS" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="venus.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="El nacimiento de Venus es un cuadro realizado por el pintor renacentista Sandro Botticelli, una de las obras cumbre del maestro florentino y del Quattrocento italiano. Está ejecutado al temple sobre lienzo y mide 278,5 cm de ancho por 172,5 cm de alto." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Sandro Botticelli, Ubicación: Galeria degli Uffizi, Fecha de creación: 1485–1486, Material: Pintura al temple." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="LAS MENINAS" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="meninas.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Las meninas o La familia de Felipe IV se considera la obra maestra del pintor del Siglo de Oro español Diego Velázquez. Acabado en 1656, según Antonio Palomino, fecha unánimemente aceptada por la crítica, corresponde al último periodo estilístico del artista, el de plena madurez." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Diego Velázquez, Ubicación: Museo Nacional del Prado, Fecha de creación: 1656, Géneros: Retrato, Pintura de historia, Escena de género." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+        
+        <Label Text="CREACION DE ADÁN" TextColor="Chocolate" HorizontalTextAlignment="Center" FontSize="Title"/>
+
+        <Image
+Source="creacionadan.jpg"
+HeightRequest="300"
+ Aspect="AspectFit"
+SemanticProperties.Description="" />
+
+        <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="La creación de Adán es un fresco en la bóveda de la Capilla Sixtina, pintado por Miguel Ángel alrededor del año 1511. Ilustra uno de los nueve episodios del Génesis representados allí por el artista toscano, ​ en el cual Dios le da vida a Adán, el primer hombre." TextColor="Black" HorizontalTextAlignment="Center"/>
+            <Label Text="Datos importantes:" TextColor="Chocolate" FontSize="Medium" HorizontalTextAlignment="Center"/>
+        <Label Text="Artista: Miguel Ángel, Ubicación: Capilla Sixtina, Modelo: Adán, Períodos: Renacimiento, Renacimiento italiano, Alto Renacimiento, Materiales: Pintura, Yeso." TextColor="Black" HorizontalTextAlignment="Center"/>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
