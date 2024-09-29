@@ -2,52 +2,73 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Menu" BackgroundColor="Wheat"
+             WidthRequest="482"
              Title="Menu">
 
     <ScrollView>
-        <VerticalStackLayout Padding="40" Spacing="20">
+        <VerticalStackLayout Padding="30" Spacing="20">
             <Label
-             Text="Kaely Gallery´s - Menú de Categorias" TextColor="Chocolate" FontSize="40" FontFamily="FontDouglast"
+             Text="Kaely Gallery´s" TextColor="Chocolate" FontSize="40" FontFamily="FontDouglast"
              HorizontalTextAlignment="Center"/>
+            <Label
+                 Text="- Menú de Categorias -" TextColor="Chocolate" FontSize="40" FontFamily="FontDouglast"
+                 HorizontalTextAlignment="Center"/>
 
             <Label
              Text="Las distintas categorias mas interesantes mundialmente y claro, tambien mostramos el talento salvadoreño, con las mejores obras de arte a nivel nacional. Elige que ver primero"
-             HorizontalTextAlignment="Center" TextColor="Black" FontSize="Title" FontAttributes="Italic"
+             HorizontalTextAlignment="Center" TextColor="Black" FontFamily="FuenteQonitta" FontSize="25"
               />
 
-            <Image
-             Source="famosas.jpg"
-             HeightRequest="300"
-              Aspect="AspectFit"
-             SemanticProperties.Description="" />
+            <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="2">
+                <StackLayout Spacing="10" Padding="10">
+                    <Image
+                         Source="famosas.jpg"
+                         HeightRequest="300"
+                         Aspect="AspectFit"
+                         SemanticProperties.Description="" />
 
-            <Button x:Name="BtnFamosas" Text="Obras más famosas" WidthRequest="250" Clicked="BtnFamosas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnFamosas" FontFamily="FontBabylove" FontSize="18" Text="Obras más famosas" WidthRequest="250" Clicked="BtnFamosas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                </StackLayout>
+            </Frame>
 
-            <Image
-            Source="escultoricas.jpg"
-            HeightRequest="300"
-             Aspect="AspectFit"
-             SemanticProperties.Description="" />
+            <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="2">
+                <StackLayout Spacing="10" Padding="10">
+                    <Image
+                         Source="escultoricas.jpg"
+                         HeightRequest="300"
+                         Aspect="AspectFit"
+                         SemanticProperties.Description="" />
 
-            <Button x:Name="BtnEscultoricas" Text="Obras escultóticas mundiales" WidthRequest="250" Clicked="BtnEscultoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnEscultoricas" FontFamily="FontBabylove" FontSize="18" Text="Obras escultóticas mundiales" WidthRequest="250" Clicked="BtnEscultoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                </StackLayout>
+            </Frame>
 
-            <Image
-            Source="pictoricas.jpg"
-            HeightRequest="300"
-            Aspect="AspectFit"
-            SemanticProperties.Description="" />
+            <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="2">
+                <StackLayout Spacing="10" Padding="10">
+                    <Image
+                        Source="pictoricas.jpg"
+                        HeightRequest="300"
+                        Aspect="AspectFit"
+                        SemanticProperties.Description="" />
 
-            <Button x:Name="BtnPictoricas" Text="Obras pictóricas mundiales" WidthRequest="250" Clicked="BtnPictoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnPictoricas" FontFamily="FontBabylove" FontSize="18" Text="Obras pictóricas mundiales" WidthRequest="250" Clicked="BtnPictoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                </StackLayout>
+            </Frame>
 
-            <Image
-             Source="salvadore.jpg"
-             HeightRequest="300"
-             Aspect="AspectFit"
-            SemanticProperties.Description="" />
+            <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="2">
+                <StackLayout Spacing="10" Padding="10">
+                    <Image
+                         Source="salvadore.jpg"
+                         HeightRequest="300"
+                         Aspect="AspectFit"
+                         SemanticProperties.Description="" />
 
-            <Button x:Name="BtnSalvadore" Text="Arte nacional" WidthRequest="250" Clicked="BtnSalvadore_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnSalvadore" FontFamily="FontBabylove" FontSize="18" Text="Arte nacional" WidthRequest="250" Clicked="BtnSalvadore_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                </StackLayout>
+            </Frame>
+            
             <Button x:Name="btnCerrar" Text="Cerrar sesión" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
-                VerticalOptions="EndAndExpand" Clicked="btnCerrar_Clicked"  WidthRequest="150"/>
+                VerticalOptions="EndAndExpand" FontFamily="FontBabylove" FontSize="18" Clicked="btnCerrar_Clicked"  WidthRequest="150"/>
 
         </VerticalStackLayout>
     </ScrollView>

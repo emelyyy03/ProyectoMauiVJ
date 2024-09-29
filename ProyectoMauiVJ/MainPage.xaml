@@ -2,34 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="Wheat"
+             WidthRequest="482"
              x:Class="ProyectoMauiVJ.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
             Padding="30"
             Spacing="15">
+            
             <Image
                 Source="kaelygalleries.png"
-                HeightRequest="350"
+                HeightRequest="250"
                 />
 
             <Label
-                Text="Kaely Gallery´s" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="50"
-                HorizontalTextAlignment="Center"/>
-
-            <Label
-                Text="Te invitamos a hecharle un vistazo a las obras de arte de las diferentes categorías"
-                HorizontalTextAlignment="Center" TextColor="Black" FontSize="Title" FontAttributes="Italic"
+                Text="Te invitamos a hecharle un vistazo a las obras de arte de las diferentes categorías" 
+                 FontSize="40" FontFamily="FuenteQonitta"
+                HorizontalTextAlignment="Center" TextColor="Black"
                />
 
             <Button
                 x:Name="CounterBtn"
+                FontFamily="FontBabylove"
                 WidthRequest="300"
+                FontSize="20"
                 Text="Ingresar a la página" 
                 TextColor="White" BackgroundColor="Chocolate"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
-        </VerticalStackLayout>
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>

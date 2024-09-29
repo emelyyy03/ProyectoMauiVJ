@@ -15,6 +15,9 @@
             NavigationPage navigationPage = new NavigationPage(nextPage);
             Application.Current.MainPage = navigationPage;
         }
+
+        
+
     }
 
 }

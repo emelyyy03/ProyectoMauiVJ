@@ -2,8 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Registro" BackgroundColor="Wheat"
+             WidthRequest="482"
              Title="Registro">
-    <VerticalStackLayout Padding="40" Spacing="10">
+
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="40" Spacing="10">
         <Label 
             Text="Registro de Visitantes!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="35"
             VerticalOptions="Center" 
@@ -11,7 +14,7 @@
 
         <Entry x:Name="entryNombre" TextColor="Black" />
         <Entry x:Name="entryContra" TextColor="Black" Keyboard="Numeric"/>
-        <Button x:Name="btnGuardar"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
+        <Button x:Name="btnGuardar" FontFamily="FontBabylove" FontSize="18"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
 
         <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
             <ListView.ItemTemplate>
@@ -19,16 +22,15 @@
 
                     <ViewCell>
                         <StackLayout>
-                            <Label Text="{Binding Nombre}" FontSize="15" TextColor="Chocolate"/>
+                            <Label Text="{Binding Nombre}" FontFamily="FuenteQonitta" FontSize="20" TextColor="Chocolate"/>
                         </StackLayout>
                     </ViewCell>
-                    
-                    <!--<TextCell TextColor="Chocolate" Text="{Binding Nombre}"/>-->
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="btnVolver" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
+        <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="18" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
                 VerticalOptions="EndAndExpand" Clicked="btnVolver_Clicked" WidthRequest="100"/>
 
-    </VerticalStackLayout>  
+    </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

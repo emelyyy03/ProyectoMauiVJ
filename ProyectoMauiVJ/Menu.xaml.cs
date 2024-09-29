@@ -11,28 +11,28 @@ public partial class Menu : ContentPage
 
     private void BtnFamosas_Clicked(System.Object sender, System.EventArgs e)
     {
-        var nextPage = new Famosas();
+        var nextPage = new Famosas(_localDbService);
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
 
     private void BtnEscultoricas_Clicked(System.Object sender, System.EventArgs e)
     {
-        var nextPage = new Esculturas();
+        var nextPage = new Esculturas(_localDbService);
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
 
     private void BtnPictoricas_Clicked(System.Object sender, System.EventArgs e)
     {
-        var nextPage = new Pictoricas();
+        var nextPage = new Pictoricas(_localDbService);
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
 
     private void BtnSalvadore_Clicked(object sender, EventArgs e)
     {
-        var nextPage = new Nacionales();
+        var nextPage = new Nacionales(_localDbService);
         NavigationPage navigationPage = new NavigationPage(nextPage);
         Application.Current.MainPage = navigationPage;
     }
