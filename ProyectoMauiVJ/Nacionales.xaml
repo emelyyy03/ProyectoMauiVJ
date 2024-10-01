@@ -7,13 +7,13 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="40" Spacing="20">
-            <Label Padding="5" Text="Arte y talento nacional" HorizontalTextAlignment="Center" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="35"/>
+            <Label Padding="5" Text="Arte y talento nacional" HorizontalTextAlignment="Center" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="40"/>
             <Label Text="Y, claramente, no podian faltar las 10 obras mas reconocidas de nuestro pais, estas obras son incluso conocidas en otros continentes, hemos seleccionados los 10 mejores para mostrarte a continuación." 
-                   TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                   TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="30"/>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="El Forastero" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="El Forastero" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="forastero.jpg"
@@ -21,10 +21,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
-                    <Label Text="Nació en Santiago de Chile en 1963. Su trabajo ha sido apreciado en más de 100 exposiciones en los últimos años en importantes Museos, galerías de arte y famosas Ferias Internacionales de Europa, Norte América y Latinoamérica; tales como ArteAméricas, Feria Internacional de Arte de Holanda, Expo-Art, Montreal, Arcale entre otros. Ha sido invitado a importantes subastas de Arte en Museos como el de Arte Moderno Carlos Mérida en  Guatemala, David J. "
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
+                    <Label Text="El artista nació en Santiago de Chile en 1963. Su trabajo ha sido apreciado en más de 100 exposiciones en los últimos años en importantes Museos, galerías de arte y famosas Ferias Internacionales de Europa, Norte América y Latinoamérica; tales como ArteAméricas, Feria Internacional de Arte de Holanda, Expo-Art, Montreal, Arcale entre otros. Ha sido invitado a importantes subastas de Arte en Museos como el de Arte Moderno Carlos Mérida en  Guatemala, David J. "
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Ignacio Basauri
                            
                            Categoría: Pintura
@@ -39,13 +39,13 @@
                            
                            
                            Fecha: 19 de julio del 2017" 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Un jardín rojo" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Un jardín rojo" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="jardin.jpg"
@@ -53,10 +53,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
-                    <Label Text="Tatiana Cañas. El Salvador. Mi pintura esta catalogada Como Surrealista-Expresionista Abstracta y Moderna Muy reconocida por su paleta intensa en colores puros y espontaneos. Estudie clases de arte y pintura en el Centro Nacional de Arte de El Salvador. Continue mis Estudios de Arte y Pintura con mi Maestro y Mentor Carlos Cañas, mi tio,  de los Exponentes mas grandes en Arte de mi pais."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
+                    <Label Text="Plabras de la artista: Mi pintura esta catalogada Como Surrealista-Expresionista Abstracta y Moderna Muy reconocida por su paleta intensa en colores puros y espontaneos. Estudie clases de arte y pintura en el Centro Nacional de Arte de El Salvador. Continue mis Estudios de Arte y Pintura con mi Maestro y Mentor Carlos Cañas, mi tio,  de los Exponentes mas grandes en Arte de mi pais."
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Tatiana Cañas
                            
                            País: El Salvador
@@ -68,13 +68,13 @@
                            Fecha: 25 de febrero del 2014
                            
                            Técnica: Óleo." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Estampa de mi pueblo 1" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Estampa de mi pueblo " TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="mipueblo.jpg"
@@ -82,10 +82,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
-                    <Label Text="Nací en San Salvador, El Salvador en 1976. He estudiado artes plásticas y diseño gráfico. No tengo una técnica específica, pero últimamente me ha encantado la acuarela, así que estoy en ese rumbo."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
+                    <Label Text="Palabras del artista: Nací en San Salvador, El Salvador en 1976. He estudiado artes plásticas y diseño gráfico. No tengo una técnica específica, pero últimamente me ha encantado la acuarela, así que estoy en ese rumbo."
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Ricardo Lopez
                            
                            País: El Salvador
@@ -99,13 +99,13 @@
                            Fecha: 18 de agosto del 2013
                            
                            Temática: Paisaje." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Sueño veneciano" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Sueño veneciano" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                      <Image
                          Source="veneciano.jpg"
@@ -113,10 +113,10 @@
                          Aspect="AspectFit"
                          SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
-                    <Label Text="Su trabajo ha sido apreciado en más de 100 exposiciones en los últimos años en importantes Museos, galerías de arte y famosas Ferias Internacionales de Europa, Norte América y Latinoamérica; tales como ArteAméricas, Feria Internacional de Arte de Holanda, Expo-Art, Montreal, Arcale entre otros. Ha sido invitado a importantes subastas de Arte en Museos como el de Arte Moderno Carlos Mérida en  Guatemala, David J. Guzmán de El Salvador " 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
+                    <Label Text="El trabajo del artista ha sido apreciado en más de 100 exposiciones en los últimos años en importantes Museos, galerías de arte y famosas Ferias Internacionales de Europa, Norte América y Latinoamérica; tales como ArteAméricas, Feria Internacional de Arte de Holanda, Expo-Art, Montreal, Arcale entre otros. Ha sido invitado a importantes subastas de Arte en Museos como el de Arte Moderno Carlos Mérida en  Guatemala, David J. Guzmán de El Salvador " 
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Ignacio Basauri
                            
                            País: El Salvador
@@ -132,13 +132,13 @@
                            Medidas: 90 x 70 cm
                            
                            Fecha: 19 de julio del 2017." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="El sueño " TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="El sueño " TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                      <Image
                          Source="elsueno.jpg"
@@ -146,10 +146,10 @@
                          Aspect="AspectFit"
                          SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Marvin Roberto Quintanilla Velasco Nació en San Salvador el 29 de marzo de 1975. Desde 1998 hasta la fecha ha recibido diversos cursos de formación artística y pedagógica, Creatividad, estudios antropológicos y Diseño Digital, Pensamiento científico aplicado al arte,  entre otras."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Roberto Quintanilla
                            
                            País: El Salvador
@@ -161,13 +161,13 @@
                            Medidas: 30 x 22 cm
                            
                            Fecha: 13 de agosto del 2014."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Pricionera" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Pricionera" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="pricionera.jpg"
@@ -175,10 +175,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Lamentablemente no hay mucha informacion respecto al creador de esta obra de arte, lo que la hace tan famosa es los innumerables premios que el artista ha recibido durante los años que ha echo destacar su obra." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Noé Alvarado
                            
                            País: El Salvador
@@ -191,13 +191,13 @@
                            Soporte: Lienzo
                            
                            Fecha: 10 de noviembre del 2014."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Solsticio de invierno en mi ciudad Jade" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Solsticio de invierno en mi ciudad Jade" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="solsticio.jpg"
@@ -205,10 +205,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Esta es la celebración maya más importante, donde el silencio o quietud predomina en el espíritu de los humanos. ¡Esa es una maravillosa presentación de uno de los mayores eventos cósmicos! ¡Ver la belleza del cambio asociada con la belleza del dinamismo de la vida!" 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Pendragon Jngm
                            
                            País: El Salvador
@@ -220,11 +220,11 @@
                            Soporte: Lienzo
                            
                            Fecha: 19 de enero del 2015." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
-            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="18" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
+            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
               VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
 
         </VerticalStackLayout>

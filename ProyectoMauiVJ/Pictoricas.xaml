@@ -7,13 +7,13 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="40" Spacing="20">
-            <Label Text="Arte pictórico más famoso en el mundo" HorizontalTextAlignment="Center" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="35"/>
+            <Label Text="Arte pictórico más famoso en el mundo" HorizontalTextAlignment="Center" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="40"/>
             <Label Text="Estas obras de arte son de la rama Pictóricas, son obras conocidas que seguramente no sabias que deriban de este estilo de pinturas, acontinuacion te mostramos las 7 mas famosas."
-                   TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                   TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="30"/>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="El viñedo rojo" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="El viñedo rojo" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="vinedo.jpg"
@@ -21,10 +21,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="El viñedo rojo cerca de Arlés es una pintura al óleo del pintor holandés Vincent van Gogh, realizada en Arlés a principios de noviembre de 1888. Fue una de las poquísimas obras que Vincent vendió en vida, aunque no la única, como se ha pretendido con frecuencia.​"
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Vincent van Gogh
                            
                            Ubicación: Museo Pushkin
@@ -32,13 +32,13 @@
                            Fecha de creación: noviembre de 1888
                            
                            Material: Pintura al óleo" 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Unos cuantos piqueticos" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Unos cuantos piqueticos" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="piqueticos.jpg"
@@ -46,10 +46,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="La artista, comprometida con la causa feminista ya en el año 1935, decidió denunciar el atroz suceso mostrando con pelos y señales la sangrienta escena del asesinato, y a dos palomas portando una cinta con las palabras del individuo, para dejar clara la incongruencia."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Frida Kahlo
                            
                            Período: Arte naíf
@@ -58,13 +58,13 @@
                            Fecha de creación: 1935
                            
                            Género: Pintura de género."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Ciencia y caridad" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Ciencia y caridad" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="ciencia.jpg"
@@ -72,10 +72,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Ciencia y caridad es una pintura al óleo realizada por Pablo Picasso en 1897 en Barcelona y que actualmente forma parte de la colección permanente del Museo Picasso de Barcelona.​ Se trata de una de las obras más representativas de la etapa de formación del artista y la realizó con solo 15 años."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Pablo Picasso
                            
                            Período: Realismo artístico
@@ -88,13 +88,13 @@
                            Tamaño: 197cm × 249,5cm
                            
                            Técnica: óleo sobre tela." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Dánae" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Dánae" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="danae.jpg"
@@ -102,10 +102,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Dánae es un cuadro al óleo del pintor austriaco Gustav Klimt creado entre 1907 y 1908. Es un ejemplo de simbolismo que representa la sexualidad femenina narcisista en el personaje mitológico griego de Dánae" 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Gustav Klimt
                            
                            Modelo: Dánae
@@ -118,13 +118,13 @@
                            Material: Pintura al óleo
                            
                            Tamaño: 77 cm x 83 cm." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Las afinidades electivas" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Las afinidades electivas" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="afinidades.jpg"
@@ -132,22 +132,22 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Con obras como esta, Magritte deja de lado todo automatismo y ensoñación de los encuentros azarosos propios del surrealismo ortodoxo y se introduce en una especie de «resolución de problemas lógicos», cuestionando la representación de las cosas y sus diferencias con «la realidad»."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: René Magritte
                            
                            Título original: Les Affinités électives
                            
                            Técnica: Óleo (41 cm × 33 cm.)." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Baco enfermo" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Baco enfermo" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="baco.jpg"
@@ -155,10 +155,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Baco enfermo es uno de los primeros cuadros de Caravaggio, pintado probablemente para su maestro Giuseppe Cesari.​ Se conserva en la Galería Borghese de Roma. El Baco de Caravaggio tiene la piel pálida y grisácea, y pocos pensarían que es atractivo. Sin embargo, y como era típico del pintor barroco, a Caravaggio no le interesaban los retratos idealizados. "
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Caravaggio
                            
                            
@@ -168,13 +168,13 @@
                            
                            
                            Fecha de creación: 1593."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
-                    <Label Text="Encuentro en el espacio" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="30"/>
+                    <Label Text="Encuentro en el espacio" TextColor="Chocolate" HorizontalTextAlignment="Center" FontFamily="FontDouglast" FontSize="35"/>
 
                     <Image
                         Source="encuentro.jpg"
@@ -182,20 +182,20 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="El título 'Encuentro en el espacio' es el que utiliza Gustav Schiefler en su catálogo de la obra gráfica de Munch, compilado en colaboración con el artista. El hecho de que el «encuentro» que pinta Munch sea de naturaleza sexual se pone de manifiesto por la presencia de espermatozoides alrededor de las dos figuras, motivo que también aparece en otras obras gráficas suyas, por ejemplo, en el borde de la versión en litografía de Madonna (1895)."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Edward Much
                            
                            Fecha de creacion: 1898
                            
                            Ubicacion: Museo Nacional Thyssen-Bornemisza." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
-            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="18" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
+            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
                     VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
             
         </VerticalStackLayout>

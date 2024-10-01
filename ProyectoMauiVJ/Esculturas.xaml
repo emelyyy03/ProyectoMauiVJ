@@ -10,9 +10,9 @@
         <StackLayout Padding="40" Spacing="20">
         
         <Label Text="Arte escultórico más famoso en el mundo" HorizontalTextAlignment="Center" TextColor="Chocolate"
-               FontFamily="FontDouglast" FontSize="35"/>
+               FontFamily="FontDouglast" FontSize="40"/>
         <Label Text="Acontinuaion te presentamos las 7 obras mas conocidas en esta rama del arte como lo son las esculturas, distintos artistas pero con un gran potencial que sigue vivo depues de años."
-               TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+               TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="30"/>
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
                 <StackLayout Spacing="10" Padding="10">
@@ -24,10 +24,10 @@
                          Aspect="AspectFit"
                          SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="El David es una escultura de mármol blanco de 5,17 metros​ de altura y 5572 kilogramos de peso, ​ realizada por Miguel Ángel Buonarroti entre 1501 y 1504 por encargo de la Opera del Duomo de la catedral de Santa María del Fiore de Florencia."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel
                            
                            
@@ -37,7 +37,7 @@
                            Materiales: Mármol de Carrara 
                            
                            Fecha de creación: 1501 - 1504. " 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
@@ -51,10 +51,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="La Piedad del Vaticano o Pietà es un grupo escultórico en mármol realizado por Miguel Ángel entre 1498 y 1499. Sus dimensiones son 1,74 por 1,95 m. Se encuentra en la Ciudad del Vaticano. La escultura representa a la Virgen María sosteniendo a Cristo muerto tras la crucifixión." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel 
                            
                            Ubicación: Basílica de San Pedro 
@@ -62,7 +62,7 @@
                            Fecha de creacion: 1498 - 1499 
                            
                            Materiales: Mármol."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
@@ -76,10 +76,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="La Piedad Rondanini se encuentra en el museo del Castillo Sforzesco de Milán. Considerada como la última obra esculpida por Miguel Ángel, ya que estuvo trabajando en ella seis días antes de morir. Fue encontrada en su estudio después de su muerte e inventariada."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel 
                            
                            Ubicacion: Castello Sforzesco (Castillo de Los Sforza) 
@@ -88,7 +88,7 @@
                            Fecha de creacion: 1552 - 1564 
                            
                            Material: Mármol." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
@@ -102,10 +102,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="La Sexta Angustia, también conocida como La Piedad, es un conjunto escultórico realizado en 1616 por el artista Gregorio Fernández, conservado en el Museo Nacional de Escultura de Valladolid​ desde mediados del siglo XIX."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Gregorio Fernández
                            
                            Ubicación: Museo Nacional de Escultura de Valladolid.
@@ -113,7 +113,7 @@
                            Fecha de creacion: 1616
                            
                            Material: Madera policromada" 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
@@ -127,10 +127,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="El Moisés es una escultura de mármol blanco encargada en 1505, realizada en 1513-1536, y retocada en 1592, obra de Miguel Ángel, centrada en la figura bíblica de Moisés."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20" />
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25" />
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel 
                            
                            Ubicacion actual: San Pietro in Vincoli 
@@ -138,7 +138,7 @@
                            Material: Mármol
                            
                            Fecha de creacion: 1513 - 1515." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
@@ -152,17 +152,17 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Laocoonte y sus hijos es un grupo escultórico griego de datación controvertida, ​ aunque suele considerarse una obra original de principios de la era cristiana.​ Es una de las esculturas antiguas más famosas desde que fue excavada en Roma en 1506.​"
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artistas: Agesandro, Polidoro y Atenodoro de Rodas
                            
                            Ubicacion: El Museo Vaticano
                            
                            
                            Material: White marble. " 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
@@ -176,10 +176,10 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                    <Label Text="Informacion de esta pieza:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="La Estatua de Zeus en Olimpia fue una gran escultura crisoelefantina creada por el escultor Fidias. Situada en Olimpia, se considera una de las Siete Maravillas del Mundo Antiguo."
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
-                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="25" HorizontalTextAlignment="Center"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
+                    <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Fidias
                            
                            
@@ -188,11 +188,11 @@
                            Materiales: Bronce, Oro, Marfil, Ébano
                            
                            Fue destruida en el siglo V d.C. debido a un incendio." 
-                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="20"/>
+                           TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
             </Frame>
 
-            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="18" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
+            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
             VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
             
     </StackLayout>

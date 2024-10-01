@@ -14,14 +14,14 @@
                 />   
             <Label 
             Padding="5"
-            Text="Registrate con Nosotros!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="35"
+            Text="Registrate con Nosotros!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="40"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-            <Entry x:Name="Usuario" WidthRequest="250" Placeholder="Ingrese un nombre de usuario" TextColor="Black" />
-            <Entry x:Name="Pass" WidthRequest="250" Placeholder="Ingrese una contraseña" TextColor="Black" Keyboard="Numeric"/>
-            <Button x:Name="btnRegistrarse" FontFamily="FontBabylove" FontSize="18" WidthRequest="200" Text="Registrarse" Clicked="btnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate" />
-            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="18" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
+            <Entry x:Name="Usuario" WidthRequest="300" FontSize="17" Placeholder="Ingrese un nombre de usuario" TextColor="Black" />
+            <Entry x:Name="Pass" WidthRequest="300" FontSize="17" Placeholder="Ingrese una contraseña" TextColor="Black" Keyboard="Numeric"/>
+            <Button x:Name="btnRegistrarse" FontFamily="FontBabylove" FontSize="25" WidthRequest="200" Text="Registrarse" Clicked="btnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate" />
+            <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
             VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
      
     </VerticalStackLayout>

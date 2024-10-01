@@ -8,15 +8,15 @@
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="20">
             <Label
-             Text="Kaely Gallery´s" TextColor="Chocolate" FontSize="40" FontFamily="FontDouglast"
+             Text="Kaely Gallerys" TextColor="Chocolate" FontSize="45" FontFamily="FontDouglast"
              HorizontalTextAlignment="Center"/>
             <Label
-                 Text="- Menú de Categorias -" TextColor="Chocolate" FontSize="40" FontFamily="FontDouglast"
+                 Text="- Menú de Categorias -" TextColor="Chocolate" FontSize="45" FontFamily="FontDouglast"
                  HorizontalTextAlignment="Center"/>
 
             <Label
              Text="Las distintas categorias mas interesantes mundialmente y claro, tambien mostramos el talento salvadoreño, con las mejores obras de arte a nivel nacional. Elige que ver primero"
-             HorizontalTextAlignment="Center" TextColor="Black" FontFamily="FuenteQonitta" FontSize="25"
+             HorizontalTextAlignment="Center" TextColor="Black" FontFamily="FuenteQonitta" FontSize="30"
               />
 
             <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="2">
@@ -27,7 +27,7 @@
                          Aspect="AspectFit"
                          SemanticProperties.Description="" />
 
-                    <Button x:Name="BtnFamosas" FontFamily="FontBabylove" FontSize="18" Text="Obras más famosas" WidthRequest="250" Clicked="BtnFamosas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnFamosas" FontFamily="FontBabylove" FontSize="25" Text="Obras más famosas" WidthRequest="250" Clicked="BtnFamosas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
                 </StackLayout>
             </Frame>
 
@@ -39,7 +39,7 @@
                          Aspect="AspectFit"
                          SemanticProperties.Description="" />
 
-                    <Button x:Name="BtnEscultoricas" FontFamily="FontBabylove" FontSize="18" Text="Obras escultóticas mundiales" WidthRequest="250" Clicked="BtnEscultoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnEscultoricas" FontFamily="FontBabylove" FontSize="25" Text="Obras escultóricas mundiales" WidthRequest="250" Clicked="BtnEscultoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
                 </StackLayout>
             </Frame>
 
@@ -51,7 +51,7 @@
                         Aspect="AspectFit"
                         SemanticProperties.Description="" />
 
-                    <Button x:Name="BtnPictoricas" FontFamily="FontBabylove" FontSize="18" Text="Obras pictóricas mundiales" WidthRequest="250" Clicked="BtnPictoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnPictoricas" FontFamily="FontBabylove" FontSize="25" Text="Obras pictóricas mundiales" WidthRequest="250" Clicked="BtnPictoricas_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
                 </StackLayout>
             </Frame>
 
@@ -63,12 +63,12 @@
                          Aspect="AspectFit"
                          SemanticProperties.Description="" />
 
-                    <Button x:Name="BtnSalvadore" FontFamily="FontBabylove" FontSize="18" Text="Arte nacional" WidthRequest="250" Clicked="BtnSalvadore_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                    <Button x:Name="BtnSalvadore" FontFamily="FontBabylove" FontSize="25" Text="Arte nacional" WidthRequest="250" Clicked="BtnSalvadore_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
                 </StackLayout>
             </Frame>
             
             <Button x:Name="btnCerrar" Text="Cerrar sesión" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
-                VerticalOptions="EndAndExpand" FontFamily="FontBabylove" FontSize="18" Clicked="btnCerrar_Clicked"  WidthRequest="150"/>
+                VerticalOptions="EndAndExpand" FontFamily="FontBabylove" FontSize="23" Clicked="btnCerrar_Clicked"  WidthRequest="150"/>
 
         </VerticalStackLayout>
     </ScrollView>

@@ -16,10 +16,6 @@ namespace ProyectoMauiVJ
             _connection = new SQLiteAsyncConnection(dbPath);
             _connection.CreateTableAsync<Cuentas>().Wait();
         }
-
-
-        
-
         //Metodo para listar los registros de nuestra tabla
         public async Task<List<Cuentas>> GetCuentas()
         {

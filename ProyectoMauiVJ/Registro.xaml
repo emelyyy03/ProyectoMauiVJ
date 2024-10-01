@@ -8,13 +8,13 @@
     <ScrollView>
         <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="40" Spacing="10">
         <Label 
-            Text="Registro de Visitantes!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="35"
+            Text="Registro de Visitantes!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="40"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Entry x:Name="entryNombre" TextColor="Black" />
-        <Entry x:Name="entryContra" TextColor="Black" Keyboard="Numeric"/>
-        <Button x:Name="btnGuardar" FontFamily="FontBabylove" FontSize="18"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
+        <Entry x:Name="entryNombre" FontSize="17" TextColor="Black" />
+            <Entry x:Name="entryContra" FontSize="17" TextColor="Black" Keyboard="Numeric"/>
+        <Button x:Name="btnGuardar" FontFamily="FontBabylove" FontSize="25"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
 
         <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
             <ListView.ItemTemplate>
@@ -22,13 +22,13 @@
 
                     <ViewCell>
                         <StackLayout>
-                            <Label Text="{Binding Nombre}" FontFamily="FuenteQonitta" FontSize="20" TextColor="Chocolate"/>
+                            <Label Text="{Binding Nombre}" FontFamily="FuenteQonitta" FontSize="25" TextColor="Chocolate"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="18" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
+        <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
                 VerticalOptions="EndAndExpand" Clicked="btnVolver_Clicked" WidthRequest="100"/>
 
     </VerticalStackLayout>
