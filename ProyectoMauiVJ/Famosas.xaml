@@ -2,11 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Famosas" BackgroundColor="Wheat"
-             WidthRequest="482"
              Title="Famosas">
 
     <ScrollView>
-        <StackLayout Padding="40" Spacing="20">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="40" Spacing="20">
 
         <Label Text="Obras de arte más conocidas en el mundo" HorizontalTextAlignment="Center" TextColor="Chocolate"
                FontFamily="FontDouglast" FontSize="40"/>
@@ -30,9 +29,19 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Leonardo da Vinci
                            
+                           
+                           
+                           
                            Ubicación: Museo del Louvre (desde 1797)
                            
+                           
+                           
+                           
                            Modelo: Lisa Gherardini
+                           
+                           
+                           
+                           
                            
                            Material: Pintura al óleo."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -55,9 +64,18 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Leonardo da Vinci
                            
+                           
+                           
+                           
                            Ubicación: Santa María de las Gracias
                            
+                           
+                           
+                           
                            Fecha de creación: 1495–1498
+                           
+                           
+                           
                            
                            Materiales: Pintura al temple, Mástique, Alquitrán, Gesso."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -80,11 +98,28 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Vincent van Gogh
                            
+                           
+                           
+                           
+                           
                            Ubicación: MoMA
+                           
+                           
+                           
+                           
+                           
+                           
                            
                            Fecha de creación: junio de 1889–junio de 1889
                            
+                           
+                           
+                           
+                           
                            Modelo: Saint-Rémy-de-Provence
+                           
+                           
+                           
                            
                            Material: Pintura al óleo." 
                            FontFamily="FuenteQonitta" FontSize="25" TextColor="Black" HorizontalTextAlignment="Center"/>
@@ -108,11 +143,27 @@
                     <Label Text="Autor: Edvard Munch
                            
                            
+                           
+                           
+                           
                            Año: 1893
+                           
+                           
+                           
+                           
+                           
                            
                            Estilo: Expresionismo
                            
+                           
+                           
+                           
+                           
                            Tamaño: 91 cm × 73,5 cm
+                           
+                           
+                           
+                           
                            
                            Técnica: Óleo, temple y pastel sobre cartón."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -135,11 +186,24 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Pablo Picasso
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 26 de abril, 1937 – junio, 1937
+                           
+                           
+                           
                            
                            Modelo: Guerra, Guerra civil española, Sufrimiento 
                            
+                           
+                           
+                           
                            Ubicaciones: París (1937–1937), Museo Nacional Centro de Arte Reina Sofía
+                           
+                           
+                           
                            
                            Material: Pintura al óleo." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -162,11 +226,27 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Gustav Klimt
                            
+                           
+                           
+                           
+                           
                            Ubicación: Palacio Belvedere
+                           
+                           
+                           
+                           
                            
                            Género: Escena de género
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 1907–1908
+                           
+                           
+                           
+                           
                            
                            Materiales: Pintura al óleo, Pan de oro." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -189,11 +269,25 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Johannes Vermeer
                            
+                           
+                           
+                           
                            Ubicaciones: Rijksmuseum (2023–2023), Mauritshuis
+                           
+                           
+                           
                            
                            Fecha de creación: 1665
                            
+                           
+                           
+                           
+                           
                            Período: Siglo de Oro neerlandés
+                           
+                           
+                           
+                           
                            Material: Pintura al óleo." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
                 </StackLayout>
@@ -215,9 +309,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Sandro Botticelli 
                            
+                           
+                           
+                           
+                           
                            Ubicación: Galeria degli Uffizi
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 1485–1486
+                           
+                           
+                           
+                           
                            
                            Material: Pintura al temple." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -240,9 +346,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Diego Velázquez
                            
+                           
+                           
+                           
+                           
                            Ubicación: Museo Nacional del Prado
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 1656
+                           
+                           
+                           
+                           
                            
                            Géneros: Retrato, Pintura de historia, Escena de género."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -265,12 +383,28 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Ángel
                            
+                           
+                           
+                           
+                           
                            Ubicación: Capilla Sixtina
+                           
+                           
+                           
+                           
                            
                            Modelo: Adán
                            
                            
+                           
+                           
+                           
+                           
                            Períodos: Renacimiento, Renacimiento italiano, Alto Renacimiento
+                           
+                           
+                           
+                           
                            
                            Materiales: Pintura, Yeso." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>

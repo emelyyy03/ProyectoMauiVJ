@@ -2,32 +2,32 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.InicioSesion" BackgroundColor="Wheat"
-             WidthRequest="482"
              Title="InicioSesion">
    
-    <ScrollView>
-        <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="40" Spacing="20">
-
-            <Image
-                Source="logokaely.png"
-                HeightRequest="150"
+    <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+        <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
+            <StackLayout Spacing="10" Padding="10">
+                    <Image
+                    Source="logokaely.png"
+                    HeightRequest="150"
                 
-                />
-            <Label Padding="5" Text="Iniciar Sesión" FontFamily="FontDouglast" FontSize="40" HorizontalTextAlignment="Center" TextColor="Chocolate" />
-            <Entry x:Name="NombreUsuario" WidthRequest="300" FontSize="17" Placeholder="Ingrese su nombre de usuario" TextColor="Black"/>
-            <Entry x:Name="Pass" IsPassword="True" WidthRequest="300" FontSize="17" Keyboard="Numeric" Placeholder="Ingrese su contraseña" TextColor="Black" />
-            <Button x:Name="BtnIniciarSesion"  FontFamily="FontBabylove" FontSize="25" WidthRequest="200" Text="Iniciar Sesión"  TextColor="White" BackgroundColor="Chocolate" Clicked="BtnIniciarSesion_Clicked"/>
+                    />
+                <Label Padding="5" Text="Iniciar Sesión" FontFamily="FontDouglast" FontSize="40" HorizontalTextAlignment="Center" TextColor="Chocolate" />
+                <Entry x:Name="NombreUsuario" WidthRequest="300" FontSize="17" Placeholder="Ingrese su nombre de usuario" TextColor="Black"/>
+                <Entry x:Name="Pass" IsPassword="True" WidthRequest="300" FontSize="17" Keyboard="Numeric" Placeholder="Ingrese su contraseña" TextColor="Black" />
+                <Button x:Name="BtnIniciarSesion"  FontFamily="FontBabylove" FontSize="25" WidthRequest="200" Text="Iniciar Sesión"  TextColor="White" BackgroundColor="Chocolate" Clicked="BtnIniciarSesion_Clicked"/>
 
-            <Label Text="¿No tienes una cuenta?" TextColor="Black" HorizontalTextAlignment="Center"
-                   FontFamily="FuenteQonitta" FontSize="27"/>
-            <Label Text="Puedes crear una dando clic en el siguiente botón ↓" TextColor="Black" HorizontalTextAlignment="Center"
-                   FontFamily="FuenteQonitta" FontSize="27"/>
-            <Button x:Name="BtnRegistrarse" Text="Crear Cuenta" FontFamily="FontBabylove" FontSize="25" WidthRequest="200" Clicked="BtnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                <Label Text="¿No tienes una cuenta?" TextColor="Black" HorizontalTextAlignment="Center"
+                       FontFamily="FuenteQonitta" FontSize="27"/>
+                <Label Text="Puedes crear una dando clic en el siguiente botón ↓" TextColor="Black" HorizontalTextAlignment="Center"
+                       FontFamily="FuenteQonitta" FontSize="27"/>
+                <Button x:Name="BtnRegistrarse" Text="Crear Cuenta" FontFamily="FontBabylove" FontSize="25" WidthRequest="200" Clicked="BtnRegistrarse_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
 
 
 
-            <Button x:Name="btnVisitantes" WidthRequest="250" FontFamily="FontBabylove" FontSize="25" Text="Ver registro de visitantes" Clicked="btnVisitantes_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
+                <Button x:Name="btnVisitantes" WidthRequest="250" FontFamily="FontBabylove" FontSize="25" Text="Ver registro de visitantes" Clicked="btnVisitantes_Clicked" TextColor="White" BackgroundColor="Chocolate"/>
 
-    </VerticalStackLayout>
+            </StackLayout>
+        </Frame>
     </ScrollView>
 </ContentPage>

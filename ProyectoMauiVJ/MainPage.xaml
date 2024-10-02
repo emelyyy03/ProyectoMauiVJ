@@ -2,36 +2,35 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="Wheat"
-             WidthRequest="482"
              x:Class="ProyectoMauiVJ.MainPage">
 
-    <ScrollView>
-        <StackLayout
-            VerticalOptions="CenterAndExpand"
-            Padding="30"
-            Spacing="15">
-            
-            <Image
-                Source="kaelygalleries.png"
-                HeightRequest="250"
-                />
+    <ScrollView VerticalOptions="Center" HorizontalOptions="Center">
+        <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
+            <StackLayout Spacing="10" Padding="10">
+                
+                <Image
+                    Source="kaelygalleries.png"
+                    HeightRequest="250"
+                    />
 
-            <Label
-                Text="Te invitamos a hecharle un vistazo a las obras de arte de las diferentes categorías" 
-                 FontSize="40" FontFamily="FuenteQonitta"
-                HorizontalTextAlignment="Center" TextColor="Black"
-               />
+                <Label
+                    Text="Te invitamos a hecharle un vistazo a las obras de arte de las diferentes categorías" 
+                     FontSize="40" FontFamily="FuenteQonitta"
+                    HorizontalTextAlignment="Center" TextColor="Black"
+                   />
 
-            <Button
-                x:Name="CounterBtn"
-                FontFamily="FontBabylove"
-                WidthRequest="300"
-                FontSize="25"
-                Text="Ingresar a la página" 
-                TextColor="White" BackgroundColor="Chocolate"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
-        </StackLayout>
+                <Button
+                    x:Name="CounterBtn"
+                    FontFamily="FontBabylove"
+                    WidthRequest="300"
+                    FontSize="25"
+                    Text="Ingresar a la página" 
+                    TextColor="White" BackgroundColor="Chocolate"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Fill" />
+       
+            </StackLayout>
+        </Frame>
     </ScrollView>
 
 </ContentPage>

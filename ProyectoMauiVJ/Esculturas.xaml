@@ -3,11 +3,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Esculturas" BackgroundColor="Wheat"
-             WidthRequest="482"
              Title="Esculturas">
 
     <ScrollView>
-        <StackLayout Padding="40" Spacing="20">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="40" Spacing="20">
         
         <Label Text="Arte escultórico más famoso en el mundo" HorizontalTextAlignment="Center" TextColor="Chocolate"
                FontFamily="FontDouglast" FontSize="40"/>
@@ -31,10 +30,20 @@
                     <Label Text="Artista: Miguel Angel
                            
                            
+                           
+                           
+                           
                            Ubicación: Galería de la Academia de Florencia (desde 1873), 
                            
                            
+                           
+                           
+                           
                            Materiales: Mármol de Carrara 
+                           
+                           
+                           
+                           
                            
                            Fecha de creación: 1501 - 1504. " 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -57,9 +66,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel 
                            
+                           
+                           
+                           
+                           
                            Ubicación: Basílica de San Pedro 
                            
+                           
+                           
+                           
+                           
                            Fecha de creacion: 1498 - 1499 
+                           
+                           
+                           
+                           
                            
                            Materiales: Mármol."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -82,10 +103,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel 
                            
+                           
+                           
+                           
+                           
                            Ubicacion: Castello Sforzesco (Castillo de Los Sforza) 
                            
                            
+                           
+                           
+                           
                            Fecha de creacion: 1552 - 1564 
+                           
+                           
+                           
+                           
                            
                            Material: Mármol." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -108,9 +140,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Gregorio Fernández
                            
+                           
+                           
+                           
+                           
                            Ubicación: Museo Nacional de Escultura de Valladolid.
                            
+                           
+                           
+                           
+                           
                            Fecha de creacion: 1616
+                           
+                           
+                           
+                           
                            
                            Material: Madera policromada" 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -133,9 +177,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Miguel Angel 
                            
+                           
+                           
+                           
+                           
                            Ubicacion actual: San Pietro in Vincoli 
                            
+                           
+                           
+                           
+                           
                            Material: Mármol
+                           
+                           
+                           
+                           
                            
                            Fecha de creacion: 1513 - 1515." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -158,7 +214,14 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artistas: Agesandro, Polidoro y Atenodoro de Rodas
                            
+                           
+                           
+                           
+                           
                            Ubicacion: El Museo Vaticano
+                           
+                           
+                           
                            
                            
                            Material: White marble. " 
@@ -183,9 +246,22 @@
                     <Label Text="Artista: Fidias
                            
                            
+                           
+                           
+                           
+                           
                            Inauguración: 435 a. C. 
                            
+                           
+                           
+                           
+                           
+                           
                            Materiales: Bronce, Oro, Marfil, Ébano
+                           
+                           
+                           
+                           
                            
                            Fue destruida en el siglo V d.C. debido a un incendio." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>

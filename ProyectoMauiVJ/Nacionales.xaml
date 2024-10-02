@@ -2,11 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Nacionales" BackgroundColor="Wheat"
-             WidthRequest="482"
              Title="Nacionales">
 
     <ScrollView>
-        <VerticalStackLayout Padding="40" Spacing="20">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="40" Spacing="20">
             <Label Padding="5" Text="Arte y talento nacional" HorizontalTextAlignment="Center" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="40"/>
             <Label Text="Y, claramente, no podian faltar las 10 obras mas reconocidas de nuestro pais, estas obras son incluso conocidas en otros continentes, hemos seleccionados los 10 mejores para mostrarte a continuación." 
                    TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="30"/>
@@ -27,15 +26,35 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Ignacio Basauri
                            
+                           
+                           
+                           
+                           
                            Categoría: Pintura
                            
+                           
+                           
+                           
+                           
                            Soporte: Tela
+                           
+                           
+                           
+                           
                            
                            
                            Temática: Figura
                            
                            
+                           
+                           
+                           
+                           
                            Técnica: Óleo
+                           
+                           
+                           
+                           
                            
                            
                            Fecha: 19 de julio del 2017" 
@@ -59,13 +78,33 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Tatiana Cañas
                            
+                           
+                           
+                           
+                           
                            País: El Salvador
+                           
+                           
+                           
+                           
                            
                            Categoría: Pintura
                            
+                           
+                           
+                           
+                           
                            Soporte: Lienzo
                            
+                           
+                           
+                           
+                           
                            Fecha: 25 de febrero del 2014
+                           
+                           
+                           
+                           
                            
                            Técnica: Óleo." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -88,15 +127,39 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Ricardo Lopez
                            
+                           
+                           
+                           
+                           
                            País: El Salvador
+                           
+                           
+                           
+                           
                            
                            Categoría: Pintura
                            
+                           
+                           
+                           
+                           
                            Soporte: Papel
+                           
+                           
+                           
+                           
                            
                            Técnica: Acuarela
                            
+                           
+                           
+                           
+                           
                            Fecha: 18 de agosto del 2013
+                           
+                           
+                           
+                           
                            
                            Temática: Paisaje." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -119,17 +182,41 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Ignacio Basauri
                            
+                           
+                           
+                           
+                           
                            País: El Salvador
+                           
+                           
+                           
+                           
                            
                            Categoría: Pintura
                            
+                           
+                           
+                           
+                           
                            Soporte: Tela
+                           
+                           
+                           
+                           
                            
                            
                            Técnica: Óleo
                            
                            
+                           
+                           
+                           
+                           
                            Medidas: 90 x 70 cm
+                           
+                           
+                           
+                           
                            
                            Fecha: 19 de julio del 2017." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -152,13 +239,33 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Roberto Quintanilla
                            
+                           
+                           
+                           
+                           
                            País: El Salvador
+                           
+                           
+                           
+                           
                            
                            Categoría: Dibujo
                            
+                           
+                           
+                           
+                           
                            Técnica: Tinta
                            
+                           
+                           
+                           
+                           
                            Medidas: 30 x 22 cm
+                           
+                           
+                           
+                           
                            
                            Fecha: 13 de agosto del 2014."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -181,14 +288,34 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Noé Alvarado
                            
+                           
+                           
+                           
+                           
                            País: El Salvador
                            
+                           
+                           
+                           
+                           
                            Categoría: Pintura
+                           
+                           
+                           
+                           
                            
                            Técnica: Óleo
                            
                            
+                           
+                           
+                           
+                           
                            Soporte: Lienzo
+                           
+                           
+                           
+                           
                            
                            Fecha: 10 de noviembre del 2014."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -211,13 +338,33 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Pendragon Jngm
                            
+                           
+                           
+                           
+                           
                            País: El Salvador
+                           
+                           
+                           
+                           
                            
                            Categoría: Pintura
                            
+                           
+                           
+                           
+                           
                            Técnica: Acrílico
                            
+                           
+                           
+                           
+                           
                            Soporte: Lienzo
+                           
+                           
+                           
+                           
                            
                            Fecha: 19 de enero del 2015." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -227,6 +374,6 @@
             <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
               VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
 
-        </VerticalStackLayout>
+        </StackLayout>
     </ScrollView>
 </ContentPage>

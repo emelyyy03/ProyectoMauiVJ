@@ -2,35 +2,36 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Registro" BackgroundColor="Wheat"
-             WidthRequest="482"
              Title="Registro">
 
-    <ScrollView>
-        <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="40" Spacing="10">
-        <Label 
-            Text="Registro de Visitantes!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="40"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <ScrollView HorizontalOptions="Center" VerticalOptions="Center">
+        <Frame BorderColor="Chocolate"  BackgroundColor="Wheat" CornerRadius="10" Padding="10">
+            <StackLayout Spacing="10" Padding="10">
+                <Label 
+                    Text="Registro de Visitantes!!" FontFamily="FontDouglast" TextColor="Chocolate" FontSize="40"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
 
-        <Entry x:Name="entryNombre" FontSize="17" TextColor="Black" />
-            <Entry x:Name="entryContra" FontSize="17" TextColor="Black" Keyboard="Numeric"/>
-        <Button x:Name="btnGuardar" FontFamily="FontBabylove" FontSize="25"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
+                <Entry x:Name="entryNombre" FontSize="17" TextColor="Black" />
+                <Entry x:Name="entryContra" FontSize="17" TextColor="Black" Keyboard="Numeric"/>
+                <Button x:Name="btnGuardar" FontFamily="FontBabylove" FontSize="25"  TextColor="White" Text="Guardar" BackgroundColor="Chocolate" WidthRequest="100" Clicked="btnGuardar_Clicked"/>
 
-        <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
-            <ListView.ItemTemplate>
-                <DataTemplate>
+                <ListView x:Name="listview" FlexLayout.Grow="1" HasUnevenRows="True" ItemTapped="listview_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
 
-                    <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding Nombre}" FontFamily="FuenteQonitta" FontSize="25" TextColor="Chocolate"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
-                VerticalOptions="EndAndExpand" Clicked="btnVolver_Clicked" WidthRequest="100"/>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label Text="{Binding Nombre}" FontFamily="FuenteQonitta" FontSize="25" TextColor="Chocolate"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" BackgroundColor="Chocolate" TextColor="White"
+                 VerticalOptions="EndAndExpand" Clicked="btnVolver_Clicked" WidthRequest="100"/>
 
-    </VerticalStackLayout>
+            </StackLayout>
+        </Frame>
     </ScrollView>
 </ContentPage>

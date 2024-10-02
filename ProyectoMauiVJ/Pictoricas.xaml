@@ -2,11 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoMauiVJ.Pictoricas" BackgroundColor="Wheat"
-             WidthRequest="482"
              Title="Pictoricas">
 
     <ScrollView>
-        <VerticalStackLayout Padding="40" Spacing="20">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="40" Spacing="20">
             <Label Text="Arte pictórico más famoso en el mundo" HorizontalTextAlignment="Center" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="40"/>
             <Label Text="Estas obras de arte son de la rama Pictóricas, son obras conocidas que seguramente no sabias que deriban de este estilo de pinturas, acontinuacion te mostramos las 7 mas famosas."
                    TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="30"/>
@@ -27,9 +26,21 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Vincent van Gogh
                            
+                           
+                           
+                           
+                           
                            Ubicación: Museo Pushkin
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: noviembre de 1888
+                           
+                           
+                           
+                           
                            
                            Material: Pintura al óleo" 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -52,10 +63,22 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Frida Kahlo
                            
+                           
+                           
+                           
+                           
                            Período: Arte naíf
                            
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 1935
+                           
+                           
+                           
+                           
                            
                            Género: Pintura de género."
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -78,14 +101,34 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Pablo Picasso
                            
+                           
+                           
+                           
+                           
                            Período: Realismo artístico
+                           
+                           
+                           
+                           
                            
                            Modelo: Enfermedad
                            
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 1897
                            
+                           
+                           
+                           
+                           
                            Tamaño: 197cm × 249,5cm
+                           
+                           
+                           
+                           
                            
                            Técnica: óleo sobre tela." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -108,14 +151,34 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Gustav Klimt
                            
+                           
+                           
+                           
+                           
                            Modelo: Dánae
+                           
+                           
+                           
+                           
                            
                            
                            Períodos: Modernismo, Simbolismo
                            
+                           
+                           
+                           
+                           
                            Fecha de creación: 1907–1908}
                            
+                           
+                           
+                           
+                           
                            Material: Pintura al óleo
+                           
+                           
+                           
+                           
                            
                            Tamaño: 77 cm x 83 cm." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -138,7 +201,15 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: René Magritte
                            
+                           
+                           
+                           
+                           
                            Título original: Les Affinités électives
+                           
+                           
+                           
+                           
                            
                            Técnica: Óleo (41 cm × 33 cm.)." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -162,9 +233,21 @@
                     <Label Text="Artista: Caravaggio
                            
                            
+                           
+                           
+                           
+                           
                            Ubicación: Museo Borghese
                            
+                           
+                           
+                           
+                           
                            Período: Barroco
+                           
+                           
+                           
+                           
                            
                            
                            Fecha de creación: 1593."
@@ -188,7 +271,15 @@
                     <Label Text="Datos importantes:" TextColor="Chocolate" FontFamily="FontDouglast" FontSize="30" HorizontalTextAlignment="Center"/>
                     <Label Text="Artista: Edward Much
                            
+                           
+                           
+                           
+                           
                            Fecha de creacion: 1898
+                           
+                           
+                           
+                           
                            
                            Ubicacion: Museo Nacional Thyssen-Bornemisza." 
                            TextColor="Black" HorizontalTextAlignment="Center" FontFamily="FuenteQonitta" FontSize="25"/>
@@ -198,6 +289,6 @@
             <Button x:Name="btnVolver" FontFamily="FontBabylove" FontSize="25" Text="Volver" HorizontalOptions="EndAndExpand" TextColor="White" BackgroundColor="Chocolate"
                     VerticalOptions="EndAndExpand"  WidthRequest="100" Clicked="btnVolver_Clicked"/>
             
-        </VerticalStackLayout>
+        </StackLayout>
     </ScrollView>
 </ContentPage>
